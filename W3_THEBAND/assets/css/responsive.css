@@ -1,0 +1,66 @@
+@media (min-width: 1024px) {
+    
+    #header .menu-btn {
+        display: none;
+    }
+}
+@media (max-width:  1023px) {
+    .btn {
+        padding: 16px 14px;
+    }
+    .contact-input .form-ctrl {
+        padding: 15px;
+    }
+    .contact-info {
+        line-height: 1.8;
+    }
+    #footer .socical a {
+        margin: 0 8px;
+    }
+    .copyright a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+}
+
+@media (min-width: 740px ) and (max-width: 1023px) {
+    
+    #header .menu-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 739px) {
+    .s-colum-full {
+        width: 100%;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-nav-button {
+        display: none;
+    }
+    #content .member-avarta {
+        width: 200px;
+    }
+    #contact .contact-info {
+        margin-bottom: 32px;;
+    }
+}
